@@ -5,7 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Horhe's Portfolio</title>
   <link rel="stylesheet" href="style.css">  
+  <style>
+    /* Inline critical CSS */
+    body { font-family: 'Poppins', sans-serif; margin: 0; opacity: 0; }
+    .line-1, .line-2 { font-size: 2.5rem; }
+    @media (min-width: 768px) {
+      .line-1, .line-2 { font-size: 5rem; }
+    }
+  </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+  <!-- Replace Google Fonts with this -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <div id="loading-screen">
   <div class="loader"></div>
